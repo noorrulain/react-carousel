@@ -1,0 +1,30 @@
+body {
+  background-color: lightgray;
+  background-image: url("https://transparenttextures.com/patterns/dark-wall.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* gap: 15px; */
+}
+.inactive-item {
+  filter: blur(1.5px);
+  opacity: 0.7;
+  z-index: 10;
+}
+button {
+  border: none;
+  height: 60px;
+  width: 15px;
+}
+button:hover {
+  background-color: lightgray;
+}
